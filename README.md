@@ -1,5 +1,6 @@
 # wdd131
 
-Week 01 Change & Save to local repo Test
+WDD131
+--------------------------
 
-"This is the starter code."
+This is my assignments for WDD131! ^^
