@@ -5,14 +5,6 @@ Coral Pink: #ff5e6c
 Sleuthe Yellow: #feb300 
 Pink Leaf: #ffaaab
 
-:root {
-    --color-ragin-beige: #fff5d7;
-    --color-coral-pink: #ff5e6c;
-    --color-sleuthe-yellow: #feb300;
-    --color-pink-leaf: #ffaaab;
-}
-
-
 
 /* Overall */
 
@@ -54,14 +46,13 @@ a {
 
 .card01, .card02 {
     background-color: #fff5d7;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 25px;
 }
 
 .aboutme p, .country p{
     font-size: 14px;
     text-align: left;
-    color: #535353;
+    color: #2b2b2b;
     line-height: 1.6;
 }
 
@@ -80,16 +71,15 @@ a {
 /* Font */
 
 h1 {
-    color: #535353;
+    color: #2b2b2b;
 }
 
 h2 {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 600;
+    font-weight: 600%;
     font-style: normal;
     padding: 20px;
     background-color: #ffaaab;
-    color: #535353;
+    color: #2b2b2b;
     border-radius: 10px;
 }
 
@@ -111,7 +101,7 @@ header h1 {
 }
 
 header h1 {
-    color: #535353;
+    color: #2b2b2b;
     padding: 1em;
     text-align: center;
     font-size: 26px;
