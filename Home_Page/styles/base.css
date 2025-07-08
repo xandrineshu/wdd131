@@ -1,0 +1,43 @@
+/* my palette */
+
+Ragin Beige: #fff5d7 Coral Pink: #ff5e6c Sleuthe Yellow: #feb300 Pink Leaf: #ffaaab:root {
+    --color-ragin-beige: #fff5d7;
+    --color-coral-pink: #ff5e6c;
+    --color-sleuthe-yellow: #feb300;
+    --color-pink-leaf: #ffaaab;
+}
+
+body {
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--color-coral-pink);
+}
+
+
+nav {
+    background-color: var(--color-ragin-beige);
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: white;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+main {
+    columns: 2;
+}
