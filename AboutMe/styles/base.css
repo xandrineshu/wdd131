@@ -107,7 +107,6 @@ header h1 {
     padding: 35px;
     text-align: center;
     font-size: 30px;
-
 }
 
 
@@ -119,18 +118,11 @@ nav {
     grid-column: 1;
     grid-row: 2;
     background-color: #f0eeea;
-    padding: 15px;
+    padding: 25px;
     font-size: medium;
 }
 
-nav {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
 nav a {
-    display: block;
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -138,12 +130,7 @@ nav a {
     padding: 5px;
     text-decoration: none;
     text-align: center;
-    font-weight: 400;
     font-size: 20px;
-}
-
-nav a {
-    flex: 1 1 100%;
 }
 
 nav a:hover {
