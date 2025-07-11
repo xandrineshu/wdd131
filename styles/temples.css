@@ -1,0 +1,109 @@
+body {
+    font-family: "Libertinus", monospace;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d9afff;
+    color: #1d1d1d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+#menu {
+    font-size: 30px;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: white;
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navigation a {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation a:hover {
+    background-color: #ffea2b;
+    color: #1d1d1d;
+}
+
+.open a {
+    display: block;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+    text-align: center;
+}
+
+main figcaption {
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.temples-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #d9afff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
