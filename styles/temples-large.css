@@ -33,7 +33,7 @@
         font-size: 2rem;
     }
 
-    main .res-grid {
+    .temple-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
@@ -46,7 +46,7 @@
         padding: 0;
     }
 
-    main .res-grid img {
+    .res-grid img {
         max-width: 400px;
         height: auto;
 
@@ -59,11 +59,8 @@
         margin-bottom: 8px;
     }
 
-    main .res-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    .temple-grid {
         gap: 20px;
         padding: 20px;
-        justify-content: center;
     }
 }
