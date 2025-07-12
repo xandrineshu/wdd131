@@ -79,13 +79,18 @@ header {
     grid-template-rows: auto;
 }
 
-header h1 {
+h1 {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 600;
-    color: white;
     padding: 30px;
     text-align: center;
+    font-size: 20px;
+    color: #fff236;
+}
+
+#course-title {
     font-size: 30px;
+    color: white;
 }
 
 nav {
