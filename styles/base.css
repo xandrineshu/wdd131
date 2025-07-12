@@ -148,7 +148,6 @@ nav a:hover {
 }
 
 
-
 /* Footer */
 
 footer {
@@ -170,6 +169,7 @@ footer p {
     line-height: 1.5;
 }
 
-#lastModified {
-    color: #847591;
-}
+    #lastModified {
+        color: #847591;
+    }
+} /* <-- Add this closing brace for the @media block */
