@@ -1,13 +1,6 @@
-/* This script updates the current year
-and last modified date in the footer of the About Me page.
-*/
-
-document.addEventListener("DOMContentLoaded", (event) => {
-    const currentYear = new Date().getFullYear();
-    document.getElementById("currentyear").textContent = currentYear;
-
-    const lastModified = document.lastModified;
-    document.getElementById(
-        "lastModified"
-    ).textContent = `⋆˙⟡ Last Modified: ${lastModified}`;
-});
+const currentYear = new Date().getFullYear();
+const lastModified = document.lastModified;
+const copyrightYearElement = document.getElementById('currentyear');
+const lastModifiedElement = document.getElementById('lastModified');
+copyrightYearElement.textContent = currentYear;
+lastModifiedElement.textContent = `⋆౨ৎ˚⟡ Last update: ${lastModified}`;
