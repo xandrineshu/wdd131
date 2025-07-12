@@ -1,14 +1,4 @@
 
-/* my palette
-nav color: #847591
-main color: #f2c3b9
-
-*/
-
-
-
-/* Main */
-
 main {
     display: grid;
     grid-template-columns: auto auto;
@@ -17,7 +7,6 @@ main {
     margin: 30px;
     columns: 2;
 }
-
 
 .card01, .card02 {
     border-radius: 10px;
@@ -54,7 +43,7 @@ main {
     font-size: 25px;
     color: #0f0f0f;
 }
-    
+
 .resources {
     text-align: left;
     line-height: 3;
@@ -82,10 +71,6 @@ h2 {
     color: white;
 }
 
-
-
-/* Headers */
-
 header {
     background-color: #f2c3b9;
     text-align: center;
@@ -95,51 +80,58 @@ header {
 }
 
 header h1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-header h1 {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     color: white;
-    padding: 35px;
+    padding: 30px;
     text-align: center;
     font-size: 30px;
 }
 
-
-
-/* Navigation */
-
 nav {
-    max-width: 800%;
-    grid-column: 1;
-    grid-row: 2;
-    background-color: #f0eeea;
-    padding: 25px;
-    font-size: medium;
-}
-
-nav a {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    color: #847591;
-    padding: 5px;
-    text-decoration: none;
+    background-color: #dad2e0;
     text-align: center;
-    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
 
 nav a:hover {
-    font-weight: 500;
     text-decoration: underline;
-    color: #0f0f0f;
+    background-color: white;
+    color: #847591;
 }
 
+.active {
+    color: #847591;
+}
 
+@media (min-width: 600px) {
+    h1 {
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 0 auto;
+    }
 
 /* Pictures*/
 
