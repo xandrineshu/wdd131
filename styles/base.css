@@ -1,6 +1,8 @@
 body {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -15,7 +17,7 @@ main {
 
 .card01, .card02 {
     border-radius: 10px;
-    border: 1px solid #f2c3b9;
+    border: 1px solid #AE445A;
 }
 
 .title {
@@ -23,7 +25,7 @@ main {
     font-weight: 600;
     text-align: center;
     padding: 5px;
-    background-color: #f2c3b9;
+    background-color: #AE445A;
     border-radius: 10px 10px 0 0;
 }
 
@@ -32,7 +34,7 @@ main {
     padding: 25px;
     font-size: 16px;
     text-align: left;
-    color: #0f0f0f;
+    color: black;
     line-height: 1.6;
 }
 
@@ -41,7 +43,7 @@ main {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 600;
     font-size: 25px;
-    color: #0f0f0f;
+    color: #432E54;
 }
 
 .resources {
@@ -53,12 +55,12 @@ main {
 a {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 600;
-    color: #847591;
+    color: #4B4376;
     text-decoration: none;
 }
 
 a:hover {
-    color: #f2c3b9;
+    color: #AE445A;
     text-decoration: underline;
 }
 
@@ -70,7 +72,7 @@ h2 {
 }
 
 header {
-    background-color: #f2c3b9;
+    background-color: #AE445A;
     text-align: center;
     display: grid;
     grid-template-columns: auto;
@@ -87,7 +89,7 @@ header h1 {
 }
 
 nav {
-    background-color: #dad2e0;
+    background-color: #E8BCB9;
     text-align: center;
     text-decoration: none;
 }
@@ -99,7 +101,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -107,12 +109,12 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    background-color: white;
-    color: #847591;
+    background-color: #4B4376;
+    color: #fff236;
 }
 
 .active {
-    color: #847591;
+    color: #4B4376
 }
 
 @media (min-width: 600px) {
@@ -153,7 +155,7 @@ nav a:hover {
 footer {
     grid-column: 1 / 3;
     grid-row: 3;
-    background-color: #f2c3b9;
+    background-color: #AE445A;
     color: white;
     text-align: center;
     height: 50px;
@@ -170,6 +172,6 @@ footer p {
 }
 
     #lastModified {
-        color: #847591;
+        color: #fff236;
     }
 } /* <-- Add this closing brace for the @media block */
