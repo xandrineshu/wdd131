@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="WDD131 - Place Page">
+    <meta name="author" content="Jelina Alexandrine Concha">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1> -ˏˋ. Philippines ˊˎ- </h1>
+    </header>
+
+    <main class="container">
+        <div class="hero-section">
+            <picture class="hero">
+                <source media="(min-width: 1000px)" srcset="images/carabao-large.webp">
+                <source media="(min-width: 600px)" srcset="images/carabao-medium.webp">
+                <img src="images/carabao-portrait.webp" alt="Carabao">
+            </picture>
+        </div>
+
+        <div class="data">
+            <h2 class="box-title">⭑.⊹₊ Data ₊⊹.⭑</h2>
+            <table>
+                <tr>
+                    <td class="label"><b>Area:</b></td>
+                    <td>300,000 km²</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Population:</b></td>
+                    <td>116,819,188</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Capital:</b></td>
+                    <td>Manila</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Languages:</b></td>
+                    <td>Tagalog, English</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Currency:</b></td>
+                    <td>Phippine peso (PHP)</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Time Zone:</b></td>
+                    <td>GMT+8</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Calling Code:</b></td>
+                    <td>+63</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Internet TLD:</b></td>
+                    <td>.ph</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="weather">
+            <h2 class="box-title"> ⭑.⊹₊ Weather ₊⊹.⭑ <span class="weather-icon">&#9925;</span></h2>
+            <img src="images/sun-icon.svg" alt="sun icon">
+            
+            <table>
+                <tr>
+                    <td class="label"><b>Temperature:</b></td>
+                    <td>26.6 °C</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Conditions:</b></td>
+                    <td>Sunny</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Wind:</b></td>
+                    <td>15 km/h</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Wind Chill:</b></td>
+                    <td>24 °C</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"> </span> ୨୧ Jelina Alexandrine B. Concha ୨୧ Philippines
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
