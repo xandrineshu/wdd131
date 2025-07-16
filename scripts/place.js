@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const temperature = 26.6; // in °C
-    const windSpeed = 15; // in km/h
+    const windSpeed = 10; // in km/h
 
     function calculateWindChill(temp, wind) {
         return 13.12 + 0.6215 * temp - 11.37 * Math.pow(wind, 0.16) + 0.3965 * temp * Math.pow(wind, 0.16);
