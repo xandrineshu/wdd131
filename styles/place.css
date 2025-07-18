@@ -82,7 +82,7 @@ header {
 
 }
 
-.weather-icon {
+.weather-icon, .data-icon {
     display: none;
 }
 

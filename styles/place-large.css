@@ -65,11 +65,11 @@
         height: auto;
     }
 
-    .weather-icon {
+    .weather-icon, .data-icon {
         display: inline;
     }
 
-    .weather-icon::after {
+    .data-icon::after {
         content: "";
     }
 
