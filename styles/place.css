@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 h2, h1 {
@@ -55,7 +55,6 @@ td.label {
     justify-content: center;
     align-items: center;
 }
-
 
 header {
     padding: 20px;
