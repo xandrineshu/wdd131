@@ -28,3 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.querySelector(".weather table").appendChild(windChillElement);
 });
+
+
