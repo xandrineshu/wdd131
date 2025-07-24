@@ -1,0 +1,167 @@
+:root {
+    background-color: #ffffff;
+
+    /* palette
+    #004030 - dark green
+    #4A9782 - light green
+    #DCD0A8 - dark beige
+    #FFF9E5 - beige 
+    */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libertinus", monospace;
+    font-weight: 400;
+}
+
+header {
+    background-color: #344350;
+    padding: 10px;
+    color: #ffffff;
+}
+
+header h1 {
+    width: 190px;
+    margin: auto 5px;
+    font-size: 25px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#menu {
+    font-size: 35px;
+    border: 0;
+    background-color: #344350;
+    color: #ffffff;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.navigation a:hover {
+    background-color: #c2e3ff;
+    color: #000000;
+    text-decoration: underline 2px solid #132331;
+    transition: all 5ms ease-in-out;
+}
+
+.open a {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    margin: 1rem auto;
+    max-width: 730px;
+}
+
+.home {
+    border-bottom: 1px solid #132331;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.title {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 40px;
+    place-items: center;
+    margin: 5px 20px;
+}
+
+
+.temple-card {
+    max-width: 300px;
+    height: 350px;
+    background-color: #e5f3ff;
+}
+
+.temple-card {
+    border: 1px solid #344350;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #132331;
+    margin-bottom: 20px;
+}
+
+.temple-card img {
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+}
+
+.temple-info {
+    margin-top: 10px;
+}
+
+.temple-info h2 {
+    font-size: 20px;
+    color: #000000;
+    padding: 5px;
+}
+
+.temple-info p {
+    font-size: 14px;
+    color: #132331;
+    padding: 2px;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #344350;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+#lastModified {
+    color: #ffe865;
+}
+
