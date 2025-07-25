@@ -16,8 +16,9 @@
 }
 
 body {
-    font-family: "Libertinus", monospace;
+    font-family: "Libertinus Mono", monospace;
     font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -27,10 +28,10 @@ header {
 }
 
 header h1 {
-    width: 190px;
+    width: 200px;
     margin: auto 5px;
-    font-size: 25px;
-    padding: 10px;
+    font-size: 22px;
+    padding: 15px;
     color: #ffffff;
 }
 
@@ -49,7 +50,7 @@ header h1 {
 }
 
 #menu.open::before {
-    content: "❎";
+    content: "💙";
 }
 
 .navigation {
@@ -95,13 +96,6 @@ main {
     padding: 20px;
 }
 
-
-.title {
-    font-size: 30px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -119,7 +113,7 @@ main {
 
 .temple-card {
     border: 1px solid #344350;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px #132331;
     margin-bottom: 20px;
@@ -128,7 +122,7 @@ main {
 .temple-card img {
     width: 100%;
     border-radius: 5px;
-    height: auto;
+    height: 10em;
 }
 
 .temple-info {
@@ -136,15 +130,16 @@ main {
 }
 
 .temple-info h2 {
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
-    padding: 5px;
+    padding: 8px;
 }
 
 .temple-info p {
-    font-size: 14px;
+    font-size: 12px;
     color: #132331;
-    padding: 2px;
+    padding: 4px;
+    text-align: left;
 }
 
 
