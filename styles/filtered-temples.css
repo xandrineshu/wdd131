@@ -1,12 +1,5 @@
 :root {
     background-color: #ffffff;
-
-    /* palette
-    #004030 - dark green
-    #4A9782 - light green
-    #DCD0A8 - dark beige
-    #FFF9E5 - beige 
-    */
 }
 
 * {
@@ -142,9 +135,6 @@ main {
     text-align: left;
 }
 
-
-
-/* Footer */
 footer {
     background-color: #344350;
     color: #ffffff;
@@ -159,4 +149,3 @@ footer p {
 #lastModified {
     color: #ffe865;
 }
-
