@@ -16,10 +16,10 @@
 
 <body>
     <main>
-        <h1>Thank you for your review!</h1>
+        <h1>⋆˚ 𝜗 Thank you for your review! 𝜚˚⋆</h1>
         <p id="review-count"></p>
     </main>
-    
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             if (localStorage.getItem('reviewCount') === null) {
@@ -32,7 +32,7 @@
 
             const reviewCountElement = document.getElementById('review-count');
             if (reviewCountElement) {
-                reviewCountElement.textContent = `Number of reviews completed: ${reviewCount}<br>Please close this page`;
+                reviewCountElement.textContent = `Number of reviews completed: ${reviewCount}. Please close this page ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა`;
             }
         });
     </script>
