@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #ffdbe1;
+    color: black;
+}
+
+header {
+    text-align: center;
+    background-color: palevioletred;
+    color: #ffffff;
+    font-size: 15px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0 2px 5px #af8686bb;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline;
+    font-weight: bold;
+    color: black;
+}
+
+select, input[type="date"], textarea, input[type="text"],
+input[type="radio"], input[type="checkbox"] {
+    width: 100%;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.features {
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff78e;
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    height: 100px;
+}
+
+.rating-box {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid palevioletred;
+}
+
+.rating-box p {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.rating-box input[type="radio"] {
+    display: none;
+}
+
+.rating-box label {
+    color: palevioletred;
+    font-size: 2rem;
+}
+
+.rating-box .clasification {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.rating-box label:hover, .rating-box label:hover~label {
+    color: #ffee00;
+}
+
+.rating-box input[type="radio"]:checked~label {
+    color: #ffee00;
+}
+
+footer {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#lastModified {
+    color: #fff78e;
+}
