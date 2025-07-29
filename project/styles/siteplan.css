@@ -8,7 +8,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #76608A;
+    background-color: #503d61;
 }
 
 header, footer {
@@ -28,7 +28,7 @@ footer {
 
 main {
     max-width: 850px;
-    margin: 50px auto;
+    margin: 45px auto;
     padding: 50px;
     background-color: #fff;
     border-radius: 10px;
@@ -45,7 +45,7 @@ h2 {
     padding-bottom: 5px;
     font-size: 25px;
     font-weight: 900;
-    color: #76608A;
+    color: #503d61;
 }
 
 h3 {
@@ -53,7 +53,7 @@ h3 {
 }
 
 h4 {
-    color: #76608A;
+    color: #503d61;
     font-size: 25px;
     font-weight: 900;
 }
@@ -70,7 +70,7 @@ section {
 img {
     max-width: 30%;
     height: auto;
-    border: 1px solid #76608A;
+    border: 1px solid #503d61;
     border-radius: 10px;
     margin: 15px;
 }
