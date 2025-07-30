@@ -8,13 +8,13 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background-color: #ffdbe1;
+    background-color: #E8BCB9;
     color: black;
 }
 
 header {
     text-align: center;
-    background-color: palevioletred;
+    background-color: #AE445A;
     color: #ffffff;
     font-size: 15px;
     margin: auto;
@@ -46,7 +46,7 @@ input[type="radio"], input[type="checkbox"] {
     padding: 2px;
     margin-top: 5px;
     margin-bottom: 15px;
-    border: 1px solid palevioletred;
+    border: 1px solid #AE445A;
     border-radius: 5px;
 }
 
@@ -72,7 +72,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 input[type="submit"] {
-    background-color: palevioletred;
+    background-color: #AE445A;
     color: white;
     border: none;
     border-radius: 5px;
@@ -97,7 +97,7 @@ textarea {
     max-width: 100%;
     margin: 10px auto;
     padding: 10px;
-    border: 1px solid palevioletred;
+    border: 1px solid #AE445A;
 }
 
 .rating-box p {
@@ -110,7 +110,7 @@ textarea {
 }
 
 .rating-box label {
-    color: palevioletred;
+    color: #AE445A;
     font-size: 2rem;
 }
 
@@ -128,9 +128,8 @@ textarea {
 }
 
 footer {
-    background-color: palevioletred;
+    background-color: #AE445A;
     color: white;
     text-align: center;
     padding: 1rem;
-    font-weight: bold;
 }
