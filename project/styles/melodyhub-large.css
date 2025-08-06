@@ -1,18 +1,15 @@
-@media (min-width: 900px) {
+@media screen and (min-width: 700px) {
+    nav ul {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 10px !important;
+        justify-content: center;
+        max-width: 640px;
+        margin: 1rem auto;
+        align-items: center;
+    }
+
     #menu {
         display: none;
-    }
-
-    .nav-links {
-        flex-direction: row;
-    }
-
-    .nav-links a {
-        display: block;
-    }
-
-    main {
-        max-width: 1200px;
-        justify-content: center;
     }
 }
