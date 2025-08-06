@@ -1,14 +1,14 @@
 // For the menu button and navigation toggle
 
 document.addEventListener('DOMContentLoaded', () => {
-    const menuButton = document.querySelector('#menu');
+    const hamButton = document.querySelector('#menu');
     const navigation = document.querySelector('.nav-links');
-    const titleHeader = document.querySelector('.title');
+    const nameHeader = document.querySelector('.title');
 
     hamButton.addEventListener('click', () => {
         navigation.classList.toggle('open');
-        menuButton.classList.toggle('open');
-        titleHeader.classList.toggle('hidden');
+        hamButton.classList.toggle('open');
+        nameHeader.classList.toggle('hidden');
     });
 });
 
