@@ -11,6 +11,7 @@
     <meta name="description" content="WDD 131 - Site Project" />
 
     <link rel="stylesheet" href="styles/melodyhub.css">
+    <link rel="stylesheet" href="styles/melodyhub-large.css">
     <script src="scripts/siteplan.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,43 +22,46 @@
 <body>
     <header>
         <img src="images/MelodyHub-logo.png" alt="MelodyHub Logo" />
-        <h1>🎤✩⋆｡MelodyHub˚.★💿</h1>
-    </header>
+        <p>Jelina Alexandrine Concha</p>
 
-    <main>
+        <h1>🎤✩⋆｡MelodyHub˚.★💿</h1>
+
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="search.html">Search</a></li>
                 <li><a href="about-me.html">About Me</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <button id="menu"></button>
         </nav>
+    </header>
 
+    <main>
         <section id="welcome-message">
+            <h3>‧₊˚♪𝄞₊˚⊹</h3>
             <h2>Welcome to MelodyHub!</h2>
-
-            <p>‧₊˚♪𝄞₊˚⊹</p>
-            <p>Your go-to place to begin learning about music.
-                Explore, learn, and enjoy the world of music!
-                At MelodyHub, we inspire music lovers to explore and
-                appreciate diverse genres through insightful articles,
-                engaging interviews, and curated playlists,
-                fostering a vibrant community where knowledge and
-                passion for music thrive. Enjoy your stay! 
+            
+            <p>
+                Welcome to MelodyHub, your ultimate destination for all things music!
+                Here, you can explore various genres, discover new artists, and enjoy
+                a wide range of musical content. Whether you're a casual listener or
+                a die-hard fan, there's something for everyone. Enjoy your stay!
             </p>
-            <p>‧₊˚♪𝄞₊˚⊹</p>
-        </section>
+            <h3>‧₊˚♪𝄞₊˚⊹</h3>
+        </section>   
 
-        <section id="whatismusic">
+        <section id="what-is-music">
+            <img src="images/music-intro.jpg" alt="Music Introduction Image" />
             <h2>What is Music?</h2>
             <p>
-                Music is an art form and cultural activity whose medium is sound.
-                General definitions of music include common elements such as pitch
-                (which governs melody and harmony), rhythm (and its associated concepts
-                of tempo, meter, and articulation), dynamics (loudness and softness),
-                and the sonic qualities of timbre and texture (sometimes termed the "color"
-                of a musical sound). 
+                Music is an artistic expression that employs sound and silence,
+                structured over time, to produce rhythm, melody, harmony, and other
+                expressive features. It's a global human activity found in every culture,
+                utilized to convey feelings, thoughts, and experiences. Music can be vocal,
+                instrumental, or a mix of both, and it can be made impulsively or
+                meticulously arranged. It serves various purposes, from entertainment and
+                relaxation to cultural rituals and social bonding.
             </p>
         </section>
 
@@ -103,6 +107,7 @@
         </section>
 
         <section id="music-genres">
+            <img src="images/music-genres.jpg" alt="Music Genres Image" />
             <h2>Music Genres</h2>
             <p>
                 Music genres are categories that identify pieces of music as
@@ -114,6 +119,8 @@
         </section>
 
         <section id="genres-list">
+            <h2>Types of Music</h2>
+            
             <div class="type1">
                 <h3>Pop Music</h3>
                 <p> info </p>
