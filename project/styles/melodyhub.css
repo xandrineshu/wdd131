@@ -10,8 +10,7 @@ body {
     font-weight: 400;
 }
 
-header,
-footer {
+header, footer {
     background-color: #E1D5E7;
     color: #000000;
     text-align: center;
@@ -24,10 +23,10 @@ main {
 }
 
 
-/* Header */
+/* ------------------------- Header ------------------------- */
 
 h1 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 900;
     text-align: center;
     padding: 10px;
@@ -43,7 +42,7 @@ header {
 }
 
 
-/* Logo */
+/* ------------------------- Logo ------------------------- */
 
 header img {
     max-width: 100px;
@@ -54,7 +53,7 @@ header img {
 }
 
 
-/* Navigation */
+/* ------------------------- Navigation ------------------------- */
 
 #menu {
     font-size: 30px;
@@ -83,6 +82,7 @@ header img {
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
+    font-size: 20px;
 }
 
 .nav-links a {
@@ -103,7 +103,7 @@ header img {
 }
 
 
-/* Welcome Message */
+/*  ------------------------- Welcome Message ------------------------- */
 
 #welcome-message {
     text-align: center;
@@ -125,26 +125,181 @@ header img {
 }
 
 
-/* Main Content */
+/* ------------------------- Main Content ------------------------- */
 
-#what-is-music img {
-    max-width: 50%;
+#intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    place-items: center;
+    margin: 5px 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+#intro img {
+    width: 50%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 25px;
+    padding-bottom: 10px;
 }
 
 #what-is-music {
-    margin: 5em;
-    padding: 40px;
-    background-color: #f0f0f0;
     border-radius: 10px;
-
 }
 
 #what-is-music h2 {
+    text-align: center;
+    padding: 5px;
+    font-size: 28px;
+    color: black;
+    border-bottom: #000000 solid 2px;
+}
+
+#what-is-music p {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* ------------------------- Top 6 section ------------------------- */
+
+#top-6 {
+    margin: auto;
+}
+
+#top-6 h2 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    border-bottom: #000000 solid 2px;
+    padding: 10px;
+}
+
+#top-6 p {
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.album1, .album2, .album3, .album4, .album5, .album6 {
+    padding: 30px;
+    border: #76608A solid 2px;
+    background-color: #E1D5E7;
+}
+
+.album-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    row-gap: 30px;
+    column-gap: 30px;
+    place-items: center;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.album-section h2 {
+    text-align: center;
     font-size: 25px;
     color: black;
     border-bottom: #000000 solid 2px;
 }
 
-/* Footer */
+.album-section h3 {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+.album-section p1 {
+    font-size: 17px;
+    text-align: left;
+    padding: 20px;
+    list-style: "♪";
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*  ------------------------- Music Genres Section ------------------------- */
+
+#music-genres img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#music-genres {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    place-items: center;
+    margin: 5px 20px;
+    padding: 20px;
+}
+
+#music-genres h2 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    border-bottom: #000000 solid 2px;
+    padding-bottom: 5px;
+}
+
+#music-genres p {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* ------------------------- Genres List ------------------------- */
+
+#genres-list {
+    margin: 5em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#genres-list h2{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: #000000 solid 2px;
+    padding: 10px;
+}
+
+
+/* ------------------------- Footer ------------------------- */
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#lastModified {
+    font-style: italic;
+    color: #9c2828;
+}

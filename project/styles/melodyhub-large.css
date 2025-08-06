@@ -1,5 +1,39 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     #menu {
         display: none;
+    }
+    
+    .nav-links {
+        flex-direction: row;
+    }
+    
+    .nav-links a {
+        display: block;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #intro img{
+        width: 60%;
+    }
+
+    #music-genres img {
+        width: 100%;
+    }
+
+    #what-is-music h2 {
+        text-align: left;
+    }
+
+    #genres h2 {
+        text-align: right;
+    }
+
+    #genres p {
+        text-align: right;
     }
 }
