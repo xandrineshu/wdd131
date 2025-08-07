@@ -137,7 +137,7 @@ header img {
 }
 
 #intro img {
-    width: 50%;
+    width: 70%;
     height: auto;
     border-radius: 25px;
     padding-bottom: 10px;
@@ -224,7 +224,7 @@ picture img {
     max-width: 100%;
     height: auto;
     padding: 20px;
-    animation: fade 15s;
+    animation: fade 10s;
 }
 
 @keyframes fade {
@@ -240,22 +240,22 @@ picture img {
 
 /*  ------------------------- Music Genres Section ------------------------- */
 
-#music-genres img {
-    max-width: 60%;
-    height: auto;
-    border-radius: 15px;
-}
-
 #music-genres {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     place-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    border: #76608A solid 2px;
+
 }
 
-#music-genres h2 {
+#music-genres img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#genres h2 {
     text-align: center;
     font-size: 25px;
     color: black;
@@ -263,17 +263,11 @@ picture img {
     padding: 5px;
 }
 
-#genres {
-    padding: 28px;
-    
-}
-
 #genres p {
     font-size: 18px;
     text-align: center;
     padding: 15px;
 }
-
 
 /* ------------------------- Genres List ------------------------- */
 
