@@ -90,7 +90,7 @@ header img {
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
 }
 
 .nav-links a:hover {
@@ -117,11 +117,17 @@ header img {
 #welcome-message h2 {
     font-size: 30px;
     padding-bottom: 15px;
+    font-weight: 700;
 }
 
 #welcome-message h3 {
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+}
+
+#welcome-message p {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 
@@ -150,9 +156,10 @@ header img {
 #what-is-music h2 {
     text-align: center;
     padding: 5px;
-    font-size: 28px;
+    font-size: 30px;
     color: black;
     border-bottom: #000000 solid 2px;
+    font-weight: 700;
 }
 
 #what-is-music p {
@@ -170,6 +177,7 @@ header img {
 
 #top-6 h2 {
     font-size: 30px;
+    font-weight: 700;
     text-align: center;
     color: black;
     font-weight: 700;
@@ -202,6 +210,7 @@ header img {
 .album-section h2 {
     text-align: center;
     font-size: 25px;
+    font-weight: 600;
     color: black;
     border-bottom: #000000 solid 2px;
 }
@@ -257,7 +266,8 @@ picture img {
 
 #genres h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 700;
     color: black;
     border-bottom: #000000 solid 2px;
     padding: 5px;
@@ -283,6 +293,7 @@ picture img {
 #types-music h2{
     text-align: center;
     font-size: 30px;
+    font-weight: 700;
     border-bottom: #000000 solid 2px;
     padding: 10px;
 }
@@ -305,13 +316,14 @@ picture img {
 }
 
 .genres-text h3 {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 700;
     text-align: left;
     padding-bottom: 10px;
 }
 
 .genres-text p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: left; 
 }
 
@@ -332,6 +344,7 @@ footer p {
     padding: 0;
     font-size: 20px;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 #lastModified {
