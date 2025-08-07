@@ -243,15 +243,16 @@ picture img {
 #music-genres img {
     max-width: 60%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #music-genres {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     place-items: center;
-    margin: 5px 20px;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: #76608A solid 2px;
 }
 
 #music-genres h2 {
@@ -259,10 +260,15 @@ picture img {
     font-size: 25px;
     color: black;
     border-bottom: #000000 solid 2px;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
-#music-genres p {
+#genres {
+    padding: 28px;
+    
+}
+
+#genres p {
     font-size: 18px;
     text-align: center;
     padding: 15px;
@@ -272,16 +278,51 @@ picture img {
 /* ------------------------- Genres List ------------------------- */
 
 #genres-list {
-    margin: 5em;
-    padding: 10px;
-    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    place-items: center;
+    gap: 35px;
+    margin: 5px 10px;
+    padding: 20px;
 }
 
-#genres-list h2{
+#types-music h2{
     text-align: center;
     font-size: 30px;
     border-bottom: #000000 solid 2px;
     padding: 10px;
+}
+
+.type1, .type2, .type3, .type4, .type5,
+.type6, .type7, .type8, .type9, .type10 {
+    border: #76608A solid 2px;
+    margin: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#genres-list img {
+    float: left;
+    padding: 15px;
+}
+
+.genres-text {
+    padding: 17px;
+}
+
+.genres-text h3 {
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.genres-text p {
+    font-size: 16px;
+    text-align: left; 
+}
+
+.genres-text h3, .genres-text p {
+    padding-left: 10px;
 }
 
 
