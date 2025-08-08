@@ -421,6 +421,24 @@ picture img {
 }
 
 
+/* ------------------------- Contact Us Page ------------------------- */
+/* --------------------------- Contact Form --------------------------- */
+
+.contact-box {
+    background-color: #E1D5E7;
+    text-align: center;
+}
+
+.contact-box h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.contact form {
+    box-sizing: border-box;
+}
+
 /* ------------------------- Footer ------------------------- */
 
 footer {
