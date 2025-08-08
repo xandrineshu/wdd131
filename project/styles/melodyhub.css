@@ -82,13 +82,13 @@ header img {
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .nav-links a {
     display: none;
     padding: 15px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: white;
 }
@@ -96,13 +96,14 @@ header img {
 .nav-links a:hover {
     background-color: #fffd9d;
     color: #1d1d1d;
+    font-weight: 700;
 }
 
 .open a {
     display: block;
 }
 
-
+/* ----------------------------- Home Page ----------------------------- */
 /*  ------------------------- Welcome Message ------------------------- */
 
 #welcome-message {
@@ -121,7 +122,8 @@ header img {
 }
 
 #welcome-message h3 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 10.5px;
     padding: 15px;
 }
 
@@ -176,7 +178,7 @@ header img {
 }
 
 #top-6 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: black;
@@ -329,6 +331,93 @@ picture img {
 
 .genres-text h3, .genres-text p {
     padding-left: 10px;
+}
+
+
+/* ----------------------------- About Me Page ----------------------------- */
+/* --------------------------- Who Am I Section --------------------------- */
+
+#who-am-i {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    place-items: center;
+    row-gap: 40px;
+    margin: 5px 20px;
+    padding: 25px;
+}
+
+#who-am-i img {
+    border-radius: 25px;
+    border: #76608A solid 2px;
+}
+
+#about-me-text {
+    padding: 20px;
+}
+
+#about-me-text h2 {
+    border-bottom: #000000 solid 2px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#about-me-text p {
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+
+/* ------------------------- Contact Info Section ------------------------- */
+
+#contact-info {
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#contact-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+#contact-info p {
+    font-size: 20px;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    padding: 30px;
+}
+
+.facebook, .instagram, .linkedIn {
+    padding: 20px;
+}
+
+.instagram img, .linkedIn img, .facebook img {
+    border-radius: 30%;
+}
+
+.socials li {
+    list-style: none;
+    padding: 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.socials a:hover {
+    color: #76608A;
+    background-color: #E1D5E7;
+    font-weight: 700;
+    padding: 5px;
 }
 
 
