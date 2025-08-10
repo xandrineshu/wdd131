@@ -17,35 +17,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Contact Form
 
-const form = document.querySelector("form");
-if (form) {
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
+document.addEventListener('DOMContentLoaded', function () {
+    const country = [
+        { name: "Canada" },
+        { name: "China" },
+        { name: "France" },
+        { name: "Italy" },
+        { name: "Japan" },
+        { name: "Korea" },
+        { name: "Philippines" },
+        { name: "Spain" },
+        { name: "Thailand" },
+        { name: "USA" },
+        { name: "other" }
+    ];
 
-        const userName = document.getElementById("name").value;
-        const userEmail = document.getElementById("email").value;
-        const subject = document.getElementById("subject").value;
-        const message = document.getElementById("message").value;
+    const selectElement = document.getElementById('country');
+    if (selectElement) {
+        country.forEach(country => {
+            const option = document.createElement('option');
+            option.value = country.name;
+            option.textContent = country.name;
+            selectElement.appendChild(option);
+        });
+    }
 
-        const contact = {
-            name: userName,
-            email: userEmail,
-            subject: subject,
-            message: message,
-        };
-
-        localStorage.setItem("contact", JSON.stringify(contact));
-
-        alert("Your Contact Form has been submitted successfully! Thank you for reaching out.");
-    });
-}
-
-// Load Contact data
-window.addEventListener("load", () => {
-    const contactData = localStorage.getItem("contact");
-    if (contactData) {
-        const contact = JSON.parse(contactData);
-        console.log("Saved Contact:", contact);
+    if (localStorage.getItem('reviewCount') === null) {
+        localStorage.setItem('reviewCount', 0);
     }
 });
 

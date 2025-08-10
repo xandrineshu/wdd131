@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thank You! - MelodyHub Website</title>
+
+    <meta name="author" content="Jelina Alexandrine B. Concha">
+    <meta name="description" content="Thank You Message from Contact Page" />
+
+    <link rel="stylesheet" href="styles/melodyhub.css">
+    <link rel="stylesheet" href="styles/melodyhub-large.css">
+    <script src="scripts/melodyhub.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/MelodyHub-logo.png" alt="MelodyHub Logo" />
+        </div>
+        <h1 class="title">🎤✩⋆｡𝑴𝒆𝒍𝒐𝒅𝒚𝑯𝒖𝒃˚.★💿</h1>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html">˙⋆✮ Home</a></li>
+                <li><a href="search.html">˙⋆✮ Search</a></li>
+                <li><a href="about-me.html">˙⋆✮ About Me</a></li>
+                <li><a href="contact.html">˙⋆✮ Contact</a></li>
+            </ul>
+            <button id="menu"></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ty-message">
+            <h2>⋆˚ 𝜗 Thank you for contacting us! 𝜚˚⋆</h2>
+            <p id="review-count"></p>
+            <img src="https://media.tenor.com/4NgeyJ0ApgEAAAAM/bts-bangtan-boys.gif" alt="BTS giving heart" />
+        </section>
+
+        <script id="review-count">
+            document.addEventListener('DOMContentLoaded', function () {
+                if (localStorage.getItem('review-Count') === null) {
+                    localStorage.setItem('review-Count', 0);
+                }
+
+                let reviewCount = parseInt(localStorage.getItem('review-Count'));
+                reviewCount += 1;
+                localStorage.setItem('review-Count', reviewCount);
+
+                const reviewCountElement = document.getElementById('review-count');
+                if (reviewCountElement) {
+                    reviewCountElement.textContent = `You've reached us: ${reviewCount} times!
+                    Thank you, we will gladly hear you out!! Please either close this page or
+                    use the menu to explore more! Take care (,,>ヮ<,,)!`;
+                }
+            });
+        </script>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"> </span> 🎧 Jelina Alexandrine B. Concha 🎧 Philippines
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
