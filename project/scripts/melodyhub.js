@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+/////////////////////////////////////////////////////////////////////////////////////////
+
+// Search Bar
+
+
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
@@ -50,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-// For footer and date
+// Footer and Date
+
 const currentYear = new Date().getFullYear();
 const lastModified = document.lastModified;
 const copyrightYearElement = document.getElementById('currentyear');
