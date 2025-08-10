@@ -337,21 +337,21 @@ picture img {
 /* ----------------------------- Search Page ----------------------------- */
 /* -----------------------------  ----------------------------- */
 
-#search-section {
+#title {
     margin: auto;
     max-width: 80%;
     text-align: center;
     padding: 25px;
 }
 
-#search-section h2 {
+#title h2 {
     font-size: 30px;
     font-weight: 700;
     border-bottom: #000000 solid 2px;
     padding: 5px;
 }
 
-#search-section p {
+#title p {
     font-size: 18px;
     padding: 10px;
 }
