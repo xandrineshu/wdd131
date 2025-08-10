@@ -334,6 +334,13 @@ picture img {
 }
 
 
+/* ----------------------------- Search Page ----------------------------- */
+/* -----------------------------  ----------------------------- */
+
+
+
+
+
 /* ----------------------------- About Me Page ----------------------------- */
 /* --------------------------- Who Am I Section --------------------------- */
 
@@ -441,6 +448,11 @@ form {
     padding: 10px;
 }
 
+.form-group p {
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
 .rating-box {
     max-width: 100%;
     margin: 5px auto;
@@ -449,12 +461,12 @@ form {
     background-color: white;
 }
 
-.rating-box p {
+.rating-box {
     text-align: center;
 }
 
 .rating-box label {
-    font-size: 30px;
+    font-size: 35px;
     padding-inline: 10px;
 }
 
@@ -469,6 +481,7 @@ form {
 
 .rating-box label:hover,
 .rating-box label:hover~label {
+    cursor: pointer;
     color: pink;
 }
 
@@ -501,6 +514,7 @@ input[type="text"], select, textarea {
 
 .text p {
     font-size: 18px;
+    font-style: italic;
 }
 
 label {
@@ -512,13 +526,13 @@ label {
 input[type=text] {
     resize: vertical;
     width: 99%;
-    height: 25px;
+    height: 30px;
 }
 
 select {
     resize: vertical;
     width: 99%;
-    height: 25px;
+    height: 30px;
 }
 
 textarea {
@@ -536,9 +550,8 @@ input[type="submit"] {
     background-color: #76608A;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 20px;
-    cursor: pointer;
     font-size: 17px;
     text-align: center;
 }
