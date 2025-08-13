@@ -353,7 +353,7 @@ picture img {
 #title h2 {
     font-size: 30px;
     font-weight: 700;
-    border-bottom: #000000 solid 2px;
+    border-bottom: black solid 2px;
     padding: 5px;
 }
 
@@ -363,12 +363,63 @@ picture img {
 }
 
 
+/* ----------------------------- Song Box section ----------------------------- */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    place-items: center;
+    gap: 35px;
+    margin: 5px 10px;
+    padding: 20px;
+}
+
+.song-card {
+    max-width: 285px;
+    height: auto;
+    background-color: #E1D5E7;
+    border: 3px solid #76608A;
+    padding: 15px;
+    box-shadow: 8px 8px #fffd9d;
+    margin-bottom: 20px;
+}
+
+.song-card img {
+    height: 250px;
+    border: black 2px solid;
+}
+
+.song-title h1 {
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+
+.song-title h2 {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.song-info {
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.song-info p {
+    font-size: 15px;
+    color: black;
+    line-height: 1.7;
+    text-align: left;
+}
+
+
 /* ----------------------------- Search Bar ----------------------------- */
 
 .song-search {
     margin: auto;
     max-width: 400px;
-
 }
 
 .song-search label {
@@ -383,8 +434,6 @@ picture img {
     width: 50%;
     height: 30px;
 }
-
-
 
 
 /* ----------------------------- About Me Page ----------------------------- */
