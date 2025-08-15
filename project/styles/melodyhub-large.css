@@ -79,4 +79,20 @@
         font-size: 40px;
         padding-inline: 15px;
     }
+    
+
+    /* ------------------------- Reference Page ------------------------- */
+
+    .content h2 {
+        text-align: left;
+        border-bottom: black 2px solid;
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 2px;
+    }
+
+    .references-list img {
+        border: #604d74 solid 3px;
+        width: 50%;
+    }
 }

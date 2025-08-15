@@ -766,19 +766,21 @@ input[type="submit"]:hover {
 }
 
 .content h2 {
-    text-align: left;
+    text-align: center;
     border-bottom: black 2px solid;
     font-size: 25px;
     font-weight: 700;
+    padding-bottom: 2px;
 }
 
 .references-list {
     padding-left: 25px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .references-list ul {
     list-style: "✔ ";
+    padding-bottom: 20px;
 }
 
 .references-list a {
@@ -790,6 +792,10 @@ input[type="submit"]:hover {
     font-weight: 900;
 }
 
+.references-list img {
+    border: #604d74 solid 3px;
+    width: 90%;
+}
 
 /* ------------------------- Footer Page ------------------------- */
 
