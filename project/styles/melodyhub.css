@@ -228,12 +228,13 @@ header img {
     font-weight: 700;
 }
 
-.album-section p1 {
+.album-section ul {
     font-size: 17px;
     text-align: left;
     padding: 20px;
-    list-style: "♪";
+    list-style: "♪ ";
     color: white;
+    line-height: 1.5;
 }
 
 .play-button {
