@@ -369,23 +369,22 @@ picture img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     place-items: center;
-    gap: 40px;
+    gap: 5px;
 }
 
 .song-card {
     max-width: 285px;
     height: auto;
-    background-color: #E1D5E7;
+    background-color: #f7eefc;
     border: 3px solid #76608A;
     padding: 15px;
-    box-shadow: 8px 8px #fffd9d;
+    box-shadow: 8px 8px #E1D5E7;
     margin-bottom: 20px;
 }
 
 .song-card img {
-    height: 220px;
-    width: 230px;
-    margin: 10px;
+    height: 250px;
+    width: 250px;
     border: #604d74 2px solid;
     animation: fade 5s;
 }
@@ -403,7 +402,6 @@ picture img {
 .song-title h1 {
     font-size: 20px;
     color: black;
-    padding: 8px;
     text-align: center;
 }
 
@@ -415,6 +413,7 @@ picture img {
 
 .song-info {
     padding-top: 20px;
+    padding-bottom: 10px;
     padding-left: 5px;
 }
 
@@ -423,6 +422,31 @@ picture img {
     color: black;
     line-height: 1.7;
     text-align: left;
+}
+
+
+/* ----------------------------- Play Button ----------------------------- */
+
+.song-title a {
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.song-title a:link, .song-title a:visited {
+    background-color: #E1D5E7;
+    color: black;
+    border: #76608A 2px solid;
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+}
+
+.song-title a:hover, .song-title a:active {
+    background-color: #604d74;
+    color: white;
+    font-style: italic;
 }
 
 
