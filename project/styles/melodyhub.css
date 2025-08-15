@@ -1,3 +1,5 @@
+/* ------------------------- Overall ------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -102,6 +104,7 @@ header img {
 .open a {
     display: block;
 }
+
 
 /* ----------------------------- Home Page ----------------------------- */
 /*  ------------------------- Welcome Message ------------------------- */
@@ -237,28 +240,7 @@ header img {
     line-height: 1.5;
 }
 
-.play-button {
-    margin: auto;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 700;
-    padding-top: 20px;
-}
 
-.play-button a:link, .play-button a:visited {
-    background-color: #E1D5E7;
-    color: black;
-    border: Black 2px solid;
-    text-decoration: none;
-    display: inline-block;
-    width: 60%;
-}
-
-.play-button a:hover, .play-button a:active {
-    background-color: #fffd9d;
-    color: black;
-    font-style: italic;
-}
 
 picture img {
     max-width: 100%;
@@ -275,6 +257,34 @@ picture img {
     100% {
         opacity: 1;
     }
+}
+
+
+/*  ------------------------- Top 6 Play Button ------------------------- */
+
+.play-button {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.play-button a:link,
+.play-button a:visited {
+    background-color: #E1D5E7;
+    color: black;
+    border: Black 2px solid;
+    text-decoration: none;
+    display: inline-block;
+    width: 60%;
+}
+
+.play-button a:hover,
+.play-button a:active {
+    background-color: #fffd9d;
+    color: black;
+    font-style: italic;
 }
 
 
@@ -309,6 +319,7 @@ picture img {
     text-align: center;
     padding: 15px;
 }
+
 
 /* ------------------------- Genres List ------------------------- */
 
@@ -450,7 +461,7 @@ picture img {
 }
 
 
-/* ----------------------------- Play Button ----------------------------- */
+/* ----------------------------- Song Play Button ----------------------------- */
 
 .song-title a {
     margin: auto;
@@ -796,6 +807,7 @@ input[type="submit"]:hover {
     border: #604d74 solid 3px;
     width: 90%;
 }
+
 
 /* ------------------------- Footer Page ------------------------- */
 
