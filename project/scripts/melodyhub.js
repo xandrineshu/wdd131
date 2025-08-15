@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
-// Search Bar
+// Search Bar according to genre
 
 const song = [
     {
@@ -105,7 +105,7 @@ const song = [
         linkURL:
             "https://www.youtube.com/watch?v=wdKk2Qt5RKQ&list=RDwdKk2Qt5RKQ&start_radio=1",
         imageUrl:
-            "https://t2.genius.com/unsafe/180x180/https%3A%2F%2Fimages.genius.com%2F197dc616e5081f7ee4c1967e5dc76bd1.1000x1000x1.png"
+            "https://i.scdn.co/image/ab67616d00001e022a2a603db22e07db8c15271c"
     },
 
     {
@@ -182,7 +182,6 @@ const song = [
         imageUrl:
             "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Drake_-_What_Did_I_Miss.png/250px-Drake_-_What_Did_I_Miss.png"
     },
-
     
     {
         songName: "California Love",
@@ -665,6 +664,21 @@ const song = [
     },
 
     {
+        songName: "Growl",
+        artist: "EXO",
+        album: "XOXO",
+        producer: "Seo Ji-eum & Wang Yajun",
+        genre: "K-Pop",
+        released: "August 5, 2013",
+        length: "3:27",
+        streams: 144171894,
+        linkURL:
+            "https://www.youtube.com/watch?v=I3dezFzsNss&list=RDI3dezFzsNss&start_radio=1",
+        imageUrl:
+            "https://images.genius.com/572982ca9df7e91c9422b497021330b2.1000x1000x1.jpg"
+    },
+
+    {
         songName: "No Doubt",
         artist: "ENHYPEN",
         album: "ROMANCE : UNTOLD -daydream-",
@@ -761,22 +775,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const genreSelect = document.getElementById('genreSelect');
     if (genreSelect) {
         genreSelect.addEventListener('change', function () {
-            const selectedGenre = this.value;
-            filterSongs(selectedGenre);
+            filterSongs(this.value);
         });
     }
 
     function filterSongs(selectedGenre) {
-        let filteredSongs;
-        if (selectedGenre === 'All') {
-            filteredSongs = song;
-        }
-        
-        else {
-            filteredSongs = song.filter(s =>
-                s.genre.toLowerCase().includes(selectedGenre.toLowerCase())
-            );
-        }
+        const filteredSongs = selectedGenre === 'All'
+            ? song
+            : song.filter(s => typeof s.genre === 'string' && s.genre.toLowerCase().includes(selectedGenre.toLowerCase()));
         displaySongs(filteredSongs);
     }
 
@@ -792,9 +798,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     filterSongs('All');
 });
-
-
-
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
