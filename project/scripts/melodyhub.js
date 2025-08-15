@@ -786,7 +786,6 @@ document.addEventListener('DOMContentLoaded', () => {
         displaySongs(filteredSongs);
     }
 
-
     divLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
