@@ -38,7 +38,7 @@ const song = [
         artist: "Rosé & Bruno Mars",
         album: "Rosie",
         producer: "Bruno Mars, Cirkut, Omer Fedi & Rogét Chahayed",
-        genre: "Pop, Pop Rock, Pop-Punk & New Wave",
+        genre: "Pop, Pop-Rock, Pop-Punk & New Wave",
         released: "18 October, 2024",
         length: "2:49",
         streams: 1863375071,
@@ -113,7 +113,7 @@ const song = [
         artist: "Arctic Monkeys",
         album: "AM",
         producer: "Ross Orton",
-        genre: "Rock, Indie Rock, Hard Rock, Garage Rock, Psychedelic Rock & Stoner Rock",
+        genre: "Rock, Indie-Rock, Hard-Rock, Garage Rock, Psychedelic Rock & Stoner Rock",
         released: "27 February 2012",
         length: "3:21",
         streams: 1253353473,
@@ -128,7 +128,7 @@ const song = [
         artist: "AC/DC",
         album: "Back in Black",
         producer: "Robert John 'Mutt' Lange",
-        genre: "Rock, Hard Rock & Heavy Metal",
+        genre: "Rock, Hard-Rock & Heavy Metal",
         released: "25 July, 1980",
         length: "4:15",
         streams: 1928553795,
@@ -143,7 +143,7 @@ const song = [
         artist: "BURNOUT SYNDROMES",
         album: "Good Morning World!",
         producer: "Kumagai Kazuumi & Ishiwatari Junji",
-        genre: "Rock, Japanese Rock & J-Pop",
+        genre: "Rock, J-Rock & J-Pop",
         released: "August 21, 2019",
         length: "4:09",
         streams: 46899077,
@@ -158,7 +158,7 @@ const song = [
         artist: "Paramore",
         album: "Paramore",
         producer: "Justin Meldal-Johnsen",
-        genre: "Rock, Power Pop, Pop Rock, New Wave, Alternative Rock & Pop-Punk",
+        genre: "Rock, Power-Pop, Pop-Rock, New Wave, Alternative Rock & Pop-Punk",
         released: "March 14, 2013",
         length: "3:36",
         streams: 1014107214,
@@ -189,7 +189,7 @@ const song = [
         artist: " 2Pac ft. Dr. Dre",
         album: "All Eyez on Me",
         producer: "Dr. Dre",
-        genre: "West Coast Hip-Hop, Gangsta Rap & G-funk",
+        genre: "West Coast Hip-Hop, Gangsta-Rap & G-funk",
         released: "December 3, 1995",
         length: "6:29",
         streams: 982901356,
@@ -264,7 +264,7 @@ const song = [
         artist: "Dan + Shay & Justin Bieber",
         album: "Good Things",
         producer: "Dan Smyers",
-        genre: "Country Pop",
+        genre: "Country-Pop",
         released: "October 4, 2019",
         length: "2:47",
         streams: 1165457632,
@@ -279,7 +279,7 @@ const song = [
         artist: "Carrie Underwood",
         album: "Some Hearts",
         producer: "Mark Bright",
-        genre: "Country & Country Rock",
+        genre: "Country & Country-Rock",
         released: "August 2006",
         length: "3:19",
         streams: 740578275,
@@ -309,7 +309,7 @@ const song = [
         artist: "Sabrina Carpenter",
         album: "Short n' Sweet",
         producer: "Jack Antonoff",
-        genre: "Country, Country Pop & Folk",
+        genre: "Country, Country-Pop & Folk",
         released: "August 23, 2024",
         length: "2:32",
         streams: 158008334,
@@ -534,7 +534,7 @@ const song = [
         artist: "Édith Piaf",
         album: "Édith Piaf",
         producer: "Édith Piaf",
-        genre: "Jazz & French Indie Pop",
+        genre: "Jazz & French Indie-Pop",
         released: "May 1, 1947",
         length: "3:06",
         streams: 200373220,
@@ -544,6 +544,185 @@ const song = [
             "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Edith_Piaf_La_Vie_en_rose_7-inch_single.png/250px-Edith_Piaf_La_Vie_en_rose_7-inch_single.png"
     },
 
+    {
+        songName: "Fly Me to the Moon",
+        artist: "Kaye Ballard",
+        album: "none",
+        producer: "Kaye Ballard",
+        genre: "Jazz",
+        released: "April 1954",
+        length: "2:14",
+        streams: "none",
+        linkURL:
+            "https://www.youtube.com/watch?v=vpC_N19UlIk&list=RDvpC_N19UlIk&start_radio=1",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kaye_Ballard_In_Other_Words_Decca_Records_Inc._Catalog_Number_9_29114_Photographed_15_April_2014.JPG/250px-Kaye_Ballard_In_Other_Words_Decca_Records_Inc._Catalog_Number_9_29114_Photographed_15_April_2014.JPG"
+    },
+
+    {
+        songName: "Valentine",
+        artist: "Laufey",
+        album: "Everything I Know About Love",
+        producer: "Laufey & Spencer Stewart",
+        genre: "Traditional-Pop & Classical-Jazz",
+        released: "February 14, 2022",
+        length: "2:48",
+        streams: 326479523,
+        linkURL:
+            "https://www.youtube.com/watch?v=tyKu0uZS86Q",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Laufey_Valentine_single_cover.jpeg/250px-Laufey_Valentine_single_cover.jpeg"
+    },
+
+    {
+        songName: "Stormy Weather",
+        artist: "Etta James",
+        album: "At Last!",
+        producer: "Phil Chess and Leonard Chess",
+        genre: "Jazz and R&B",
+        released: "November 15, 1960",
+        length: "3:07",
+        streams: 133429639,
+        linkURL:
+            "https://www.youtube.com/watch?v=9jDpI5-NzXI&list=RD9jDpI5-NzXI&start_radio=1",
+        imageUrl:
+            "https://static.qobuz.com/images/covers/mc/uh/x0mmvjfieuhmc_600.jpg"
+    },
+
+    {
+        songName: "Nobody",
+        artist: "Wonder Girls",
+        album: "The Wonder Years: Trilogy",
+        producer: "Park Jin-young",
+        genre: "K-Pop, Dance-Pop & Electropop",
+        released: "September 22, 2008",
+        length: "3:34",
+        streams: 24464171,
+        linkURL:
+            "https://www.youtube.com/watch?v=QZBn1e9pr2Q",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Wonder_Girls_Nobody_Single.jpg/250px-Wonder_Girls_Nobody_Single.jpg"
+    },
+
+    {
+        songName: "Boy with Luv ft. Halsey",
+        artist: "BTS",
+        album: " Map of the Soul: Persona",
+        producer: "Pdogg",
+        genre: "K-Pop, Funk, Pop, Nu-Disco & Electropop",
+        released: "April 12, 2019",
+        length: "3:50",
+        streams: 1295198869,
+        linkURL:
+            "https://www.youtube.com/watch?v=XsX3ATc3FbA&list=RDXsX3ATc3FbA&start_radio=1",
+        imageUrl:
+            "https://i.scdn.co/image/ab67616d0000b27318d0ed4f969b376893f9a38f"
+    },
+
+    {
+        songName: "Ddu-Du Ddu-Du",
+        artist: "Blackpink",
+        album: "Square Up",
+        producer: "Teddy Park, 24, Bekuh Boom & R.Tee",
+        genre: "K-Pop, Pop-Rap & EDM Trap",
+        released: "June 15, 2018",
+        length: "3:31",
+        streams: 796043287,
+        linkURL:
+            "https://www.youtube.com/watch?v=IHNzOHi8sJs",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Black_Pink_-_Ddu-Du_Ddu-Du_%28Japanese_version%29_artwork.png/250px-Black_Pink_-_Ddu-Du_Ddu-Du_%28Japanese_version%29_artwork.png"
+    },
+
+    {
+        songName: "Cupid",
+        artist: "Fifty Fifty",
+        album: "The Beginning",
+        producer: "SIAHN, von Mentzer, Felländer-Tsai & Udin",
+        genre: "K-Pop, Disco-Pop, Synth-Pop & Bubblegum Pop",
+        released: "February 24, 2023",
+        length: "2:54",
+        streams: 259430636,
+        linkURL:
+            "https://www.youtube.com/watch?v=Qc7_zRjH808",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Fifty_Fifty_-_The_Beginning_Cupid.png/250px-Fifty_Fifty_-_The_Beginning_Cupid.png"
+    },
+
+    {
+        songName: "Gangnam Style",
+        artist: "Psy",
+        album: "Psy 6 (Six Rules), Part 1",
+        producer: "Park Jae-sang (Psy), Yoo Gun-hyung & Yang Hyun-suk",
+        genre: "K-Pop, Hip-Hop, Dance-Pop & EDM",
+        released: "July 15, 2012",
+        length: "3:39",
+        streams: 583133188,
+        linkURL:
+            "https://www.youtube.com/watch?v=9bZkp7q19f0",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Gangnam_Style_Official_Cover.png/250px-Gangnam_Style_Official_Cover.png"
+    },
+
+    {
+        songName: "No Doubt",
+        artist: "ENHYPEN",
+        album: "ROMANCE : UNTOLD -daydream-",
+        producer: "Johnny Goldstein, Armadillo, & Ranga",
+        genre: "K-Pop, R&B & Synth-Pop",
+        released: "November 11, 2024",
+        length: "2:47",
+        streams: 92386679,
+        linkURL:
+            "https://www.youtube.com/watch?v=rDolt3jJRsM",
+        imageUrl:
+            "https://i.scdn.co/image/ab67616d0000b273ac9d6ee9be9186ff1a28c900"
+    },
+
+    {
+        songName: "Rude",
+        artist: "Magic!",
+        album: "Don't Kill the Magic",
+        producer: "Adam Messinger",
+        genre: "Reggae Fusion",
+        released: "October 11, 2013",
+        length: "3:44",
+        streams: 1876628822,
+        linkURL:
+            "https://www.youtube.com/watch?v=PIh2xe4jnpk",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Magic%21_-_Rude.png/250px-Magic%21_-_Rude.png"
+    },
+
+    {
+        songName: "Could You Be Loved",
+        artist: "Bob Marley and the Wailers",
+        album: "Uprising",
+        producer: "Bob Marley & Chris Blackwell",
+        genre: "Reggae & Disco",
+        released: "16 May 1980",
+        length: "3:56",
+        streams: 1233757634,
+        linkURL:
+            "https://www.youtube.com/watch?v=1ti2YCFgCoI",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/CouldYouBeLoved.jpg/250px-CouldYouBeLoved.jpg"
+    },
+
+    {
+        songName: "Mahal Kita ",
+        artist: "tropical Depression",
+        album: "Kapayapaan",
+        producer: "F. Fernandez & D. Gamboa",
+        genre: "Reggae",
+        released: "January 1, 1994",
+        length: "3:48",
+        streams: 4667873,
+        linkURL:
+            "https://www.youtube.com/watch?v=yu6tBy4u_DI&list=RDyu6tBy4u_DI&start_radio=1",
+        imageUrl:
+            "https://i.scdn.co/image/ab67616d0000b2734dc05f732005e872ef29e9e1"
+    }
 
 ];
 
