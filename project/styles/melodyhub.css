@@ -313,7 +313,7 @@ picture img {
 
 #genres-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     place-items: center;
     gap: 35px;
     margin: 5px 10px;
