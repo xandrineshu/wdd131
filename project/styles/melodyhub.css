@@ -799,7 +799,6 @@ footer {
 }
 
 footer p {
-    font-size: 15px;
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -808,11 +807,14 @@ footer p {
 }
 
 footer a {
+    font-size: 20px;
+    font-weight: 600;
     color: #604d74;
     text-decoration: none;
 }
 
 footer a:hover {
+    background-color: #f7eefc;
     color: #a52249;
     font-weight: 900;
 }
