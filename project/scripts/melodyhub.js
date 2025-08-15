@@ -162,32 +162,70 @@ const song = [
     },
 
     
-    // {
-    //    songName: "",
-    //    artist: "",
-    //    album: "",
-    //    producer: "",
-    //    genre: "",
-    //    released: "",
-    //    length: "",
-    //    streams: ,
-    //    imageUrl:
-    //        ""
-    // },
+    {
+        songName: "California Love",
+        artist: " 2Pac ft. Dr. Dre",
+        album: "All Eyez on Me",
+        producer: "Dr. Dre",
+        genre: "West Coast Hip-Hop, Gangsta Rap & G-funk",
+        released: "December 3, 1995",
+        length: "6:29",
+        streams: 982901356,
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/California_Love_%281995%29%2C_by_Tupac_Shakur.png/250px-California_Love_%281995%29%2C_by_Tupac_Shakur.png"
+    },
 
-    // {
-    //    songName: "",
-    //    artist: "",
-    //    album: "",
-    //    producer: "",
-    //    genre: "",
-    //    released: "",
-    //    length: "",
-    //    streams: ,
-    //    imageUrl:
-    //        ""
-    // },
+    {
+        songName: "Luther",
+        artist: " Kendrick Lamar & SZA",
+        album: "GNX",
+        producer: "Sounwave, Antonoff, Bridgeway, Washington, M-Tech & roselilah",
+        genre: "R&B and Hip-Hop",
+        released: "November 29, 2024",
+        length: "2:57",
+        streams: 1113252465,
+        imageUrl:
+            "https://i1.sndcdn.com/artworks-jZ93rCn38aCM3smD-Uyy2sQ-t500x500.jpg"
+    },
 
+    {
+        songName: "No Diggity",
+        artist: "Blackstreet ft. Dr. Dre & Queen Pen",
+        album: " Another Level",
+        producer: "Teddy Riley & William 'Skylz' Stewart",
+        genre: "R&B, Hip-Hop & Hip-Hop Soul",
+        released: "July 29, 1996",
+        length: "5:04",
+        streams: 954657655,
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/No_Diggity.jpg/250px-No_Diggity.jpg"
+    },
+
+    {
+        songName: "The Real Slim Shady",
+        artist: "Eminem",
+        album: "The Marshall Mathers LP",
+        producer: "Dr. Dre & Mel-Man",
+        genre: "Comedy Hip-Hop",
+        released: "	April 18, 2000",
+        length: "4:44",
+        streams: 2235626713,
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Eminem_-_The_Real_Slim_Shady_CD_cover.jpg/250px-Eminem_-_The_Real_Slim_Shady_CD_cover.jpg"
+    },
+
+    {
+        songName: "Sticky",
+        artist: "Tyler, the Creator ft. GloRilla, Sexyy Red & Lil Wayne",
+        album: "Chromakopia",
+        producer: "Tyler, the Creator",
+        genre: "Southern Hip-Hop & Trap",
+        released: "November 12, 2024",
+        length: "4: 15",
+        streams: 408346855,
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/en/5/5b/Chromakopia_CD_cover.jpg"
+    }
 
 ];
 
@@ -223,25 +261,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    const filterSongs = (criteria) => {
-        let filteredSongs = song;
-        switch (criteria) {
-            case 'Pop':
-                filteredSongs = song.filter(song => song.genre = "Pop");
-                break;
-            case 'Rock':
-                filteredSongs = song.filter(song => song.genre = "Rock");
-                break;
-            case 'Hip-Hop':
-                filteredSongs = song.filter(song => song.genre = "Hip-Hop");
-                break;
-            default:
-                filteredSongs = song;
-                break;
-        }
+    const genreSelect = document.getElementById('genreSelect');
+    if (genreSelect) {
+        genreSelect.addEventListener('change', function () {
+            const selectedGenre = this.value;
+            filterSongs(selectedGenre);
+        });
+    }
 
+    function filterSongs(selectedGenre) {
+        let filteredSongs;
+        if (selectedGenre === 'All') {
+            filteredSongs = song;
+        }
+        
+        else {
+            filteredSongs = song.filter(s =>
+                s.genre.toLowerCase().includes(selectedGenre.toLowerCase())
+            );
+        }
         displaySongs(filteredSongs);
-    };
+    }
+
 
     divLinks.forEach(link => {
         link.addEventListener('click', (e) => {
@@ -252,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    filterSongs('all');
+    filterSongs('All');
 });
 
 

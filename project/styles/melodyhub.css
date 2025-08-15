@@ -359,7 +359,7 @@ picture img {
 
 #title p {
     font-size: 18px;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 
@@ -367,11 +367,9 @@ picture img {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     place-items: center;
-    gap: 35px;
-    margin: 5px 10px;
-    padding: 20px;
+    gap: 40px;
 }
 
 .song-card {
@@ -385,8 +383,21 @@ picture img {
 }
 
 .song-card img {
-    height: 250px;
-    border: black 2px solid;
+    height: 220px;
+    width: 230px;
+    margin: 10px;
+    border: #604d74 2px solid;
+    animation: fade 5s;
+}
+    
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 2;
+    }
 }
 
 .song-title h1 {
@@ -419,13 +430,19 @@ picture img {
 
 .song-search {
     margin: auto;
+}
+
+.search {
+    margin: auto;
     max-width: 400px;
+    padding-bottom: 20px;
 }
 
 .song-search label {
+    place-items: center;
     text-align: left;
-    padding-inline: 10px;
     font-size: 25px;
+    padding-inline: 10px;
     font-weight: 700;
 }
 
