@@ -794,8 +794,6 @@ document.addEventListener('DOMContentLoaded', () => {
             filterSongs(e.target.div);
         });
     });
-
-    filterSongs('All');
 });
 
 

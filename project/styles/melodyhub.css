@@ -647,7 +647,7 @@ form {
 }
 
 .rating-box input[type="radio"]:checked~label {
-    color: #fd4d91;
+    color: #a52249;
 }
 
 
