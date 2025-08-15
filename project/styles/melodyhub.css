@@ -196,7 +196,8 @@ header img {
 }
 
 .album1, .album2, .album3, .album4, .album5, .album6 {
-    padding: 30px;
+    padding-inline: 20px;
+    padding-top: 15px;
     border: black solid 2px;
     background-color: #604d74;
     box-shadow: 10px 10px #E1D5E7;
@@ -205,8 +206,7 @@ header img {
 .album-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    row-gap: 30px;
-    column-gap: 30px;
+    gap: 30px;
     place-items: center;
     margin: 5px 10px;
     padding: 10px;
@@ -217,6 +217,7 @@ header img {
     font-size: 25px;
     font-weight: 600;
     color: white;
+    padding-bottom: 5px;
     border-bottom: white solid 2px;
 }
 
@@ -233,6 +234,29 @@ header img {
     padding: 20px;
     list-style: "♪";
     color: white;
+}
+
+.play-button {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.play-button a:link, .play-button a:visited {
+    background-color: #E1D5E7;
+    color: black;
+    border: Black 2px solid;
+    text-decoration: none;
+    display: inline-block;
+    width: 60%;
+}
+
+.play-button a:hover, .play-button a:active {
+    background-color: #fffd9d;
+    color: black;
+    font-style: italic;
 }
 
 picture img {
@@ -289,7 +313,7 @@ picture img {
 
 #genres-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     place-items: center;
     gap: 35px;
     margin: 5px 10px;
