@@ -123,13 +123,13 @@ header img {
     font-weight: 700;
 }
 
-#welcome-message h3 {
+#welcome-message p {
     text-align: center;
     font-size: 10.5px;
     padding: 15px;
 }
 
-#welcome-message p {
+#welcome-message p1 {
     font-size: 18px;
     line-height: 1.5;
 }
